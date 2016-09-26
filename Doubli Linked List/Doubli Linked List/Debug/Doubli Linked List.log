@@ -1,0 +1,14 @@
+﻿  Driver.cpp
+d:\my documents\visual studio 2015\projects\dsa\doubli linked list\doubli linked list\doublilinkedlist.hpp(534): error C2280: 'DoubliLinkedList<int>::iterator::iterator(const DoubliLinkedList<int>::iterator &)': attempting to reference a deleted function
+  d:\my documents\visual studio 2015\projects\dsa\doubli linked list\doubli linked list\doublilinkedlist.hpp(360): note: compiler has generated 'DoubliLinkedList<int>::iterator::iterator' here
+  d:\my documents\visual studio 2015\projects\dsa\doubli linked list\doubli linked list\doublilinkedlist.hpp(533): note: while compiling class template member function 'void DoubliLinkedList<int>::Push_front(const Object &&)'
+          with
+          [
+              Object=int
+          ]
+  d:\my documents\visual studio 2015\projects\dsa\doubli linked list\doubli linked list\driver.cpp(7): note: see reference to function template instantiation 'void DoubliLinkedList<int>::Push_front(const Object &&)' being compiled
+          with
+          [
+              Object=int
+          ]
+  d:\my documents\visual studio 2015\projects\dsa\doubli linked list\doubli linked list\driver.cpp(5): note: see reference to class template instantiation 'DoubliLinkedList<int>' being compiled
